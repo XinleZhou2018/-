@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: palevioletred;
+    height: 100%;
+}
+
+.father{
+    position: relative;
+    /*width: 1200px;*/
+    height: 100vh;
+    /*background-color: green;*/
+}
+
+.Container{
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    top: 0;
+    bottom: 0;
+    /*width: 1080px;*/
+    /*height: 100%;*/
+    /*background-color: peru;*/
+}
+
+.loading{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 200px;
+    /*width: 1080px;*/
+    /*height: 100%;*/
+    /*background-color: yellow;*/
+}
+
+.title{
+    margin-top: 100px;
+    font-size: 60px;
+    color: bisque;
+    text-align: center;
+}
+
+.buttons{
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 900px;
+    /*height: 300px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.three{
+    background-color: wheat;
+    color: red;
+    border: none;
+    outline: none;
+
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.three:active{
+    background-color: lightgray;
+}
+
+.three[disabled]{
+    background: gray;
+    color: whitesmoke;
+    pointer-events: none;
+}
+
+.two{
+    background-color: wheat;
+    color: red;
+    border: none;
+    outline: none;
+
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+}
+.two:active{
+    background-color: lightgray;
+}
+.two[disabled]{
+    background: gray;
+    color: whitesmoke;
+    pointer-events: none;
+}
+
+.one{
+    background-color: wheat;
+    color: red;
+    border: none;
+    outline: none;
+
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+
+}
+
+.one:active{
+    background-color: lightgray;
+}
+.one[disabled]{
+    background: gray;
+    color: whitesmoke;
+    pointer-events: none;
+}
+
+.reset{
+    background-color: wheat;
+    color: red;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+
+}
+
+.reset:active{
+    background-color: lightgray;
+}
+
+.threeGift{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.threeText{
+    font-size: 20px;
+
+}
+
+.twoGift{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.twoText{
+    font-size: 30px;
+
+}
+
+.oneGift{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.oneText{
+    font-size: 40px;
+
+}
+
+.zeroGift{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.zeroText{
+    font-size: 15px;
+}
+
+.list{
+    padding: 0 30px;
+    font-size: 40px;
+    color: bisque;
+    text-align: left;
+}
+
+
+/**动画效果*/
+
